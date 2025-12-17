@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Songs - Bruce Springsteen</title>
+    <meta name="description" content="Complete Bruce Springsteen song catalog with guitar chords and history.">
+    <link rel="canonical" href="https://brucespringsteen.bio/">
+    <meta property="og:title" content="Songs - Bruce Springsteen">
+    <meta property="og:description" content="Complete Bruce Springsteen song catalog with guitar chords and history.">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    
+    <style>
+        .nav-link { transition: color 0.2s; }
+        .nav-link:hover { color: #c084fc; }
+        .gradient-text {
+            background: linear-gradient(90deg, #c084fc, #f97316);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .card-hover { transition: transform 0.3s, box-shadow 0.3s; }
+        .card-hover:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.3); }
+    </style>
+
+</head>
+<body class="bg-gray-900 text-white">
+
+    <nav class="fixed w-full z-50 bg-gray-900 bg-opacity-95 border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <a href="/" class="text-2xl font-bold text-purple-400">BRUCE SPRINGSTEEN</a>
+                <div class="hidden md:flex space-x-6 text-sm">
+                    <a href="/" class="nav-link text-gray-300">Home</a>
+                    <a href="about.html" class="nav-link text-gray-300">Biography</a>
+                    <a href="discography.html" class="nav-link text-gray-300">Discography</a>
+                    <a href="videos.html" class="nav-link text-gray-300">Videos</a>
+                    <a href="songs.html" class="nav-link text-gray-300">Songs</a>
+                    <a href="gallery.html" class="nav-link text-gray-300">Gallery</a>
+                    <a href="awards.html" class="nav-link text-gray-300">Awards</a>
+                </div>
+                <button class="md:hidden text-white" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden mt-4 space-y-2">
+                <a href="/" class="block py-2 text-gray-300">Home</a>
+                <a href="about.html" class="block py-2 text-gray-300">Biography</a>
+                <a href="discography.html" class="block py-2 text-gray-300">Discography</a>
+                <a href="videos.html" class="block py-2 text-gray-300">Videos</a>
+                <a href="songs.html" class="block py-2 text-gray-300">Songs</a>
+                <a href="gallery.html" class="block py-2 text-gray-300">Gallery</a>
+                <a href="awards.html" class="block py-2 text-gray-300">Awards</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="pt-24 pb-12 bg-gradient-to-b from-purple-900/30 to-gray-900">
+        <div class="max-w-7xl mx-auto px-4">
+            <p class="text-purple-400 mb-2">GUITAR CHORDS & HISTORY</p>
+            <h1 class="text-5xl font-bold mb-4 gradient-text">Songs</h1>
+        </div>
+    </section>
+
+    <main class="max-w-7xl mx-auto px-4 py-12">
+        <div class="grid md:grid-cols-3 gap-6">
+            <a href="song-born-to-run.html" class="card-hover bg-gray-800 rounded-xl p-6">
+                <h3 class="text-xl font-bold">Born to Run</h3>
+                <p class="text-gray-400 text-sm">Born to Run</p>
+                <div class="mt-2 text-sm text-purple-400">
+                    <span>Key: E</span> • <span>1975</span>
+                </div>
+                <p class="text-gray-500 text-sm mt-2">Difficulty: Intermediate</p>
+            </a>
+        
+            <a href="song-thunder-road.html" class="card-hover bg-gray-800 rounded-xl p-6">
+                <h3 class="text-xl font-bold">Thunder Road</h3>
+                <p class="text-gray-400 text-sm">Born to Run</p>
+                <div class="mt-2 text-sm text-purple-400">
+                    <span>Key: G</span> • <span>1975</span>
+                </div>
+                <p class="text-gray-500 text-sm mt-2">Difficulty: Intermediate</p>
+            </a>
+        
+            <a href="song-dancing-in-the-dark.html" class="card-hover bg-gray-800 rounded-xl p-6">
+                <h3 class="text-xl font-bold">Dancing in the Dark</h3>
+                <p class="text-gray-400 text-sm">Born in the U.S.A.</p>
+                <div class="mt-2 text-sm text-purple-400">
+                    <span>Key: B</span> • <span>1984</span>
+                </div>
+                <p class="text-gray-500 text-sm mt-2">Difficulty: Beginner</p>
+            </a>
+        
+            <a href="song-born-in-the-usa.html" class="card-hover bg-gray-800 rounded-xl p-6">
+                <h3 class="text-xl font-bold">Born in the U.S.A.</h3>
+                <p class="text-gray-400 text-sm">Born in the U.S.A.</p>
+                <div class="mt-2 text-sm text-purple-400">
+                    <span>Key: B</span> • <span>1984</span>
+                </div>
+                <p class="text-gray-500 text-sm mt-2">Difficulty: Beginner</p>
+            </a>
+        
+            <a href="song-the-river.html" class="card-hover bg-gray-800 rounded-xl p-6">
+                <h3 class="text-xl font-bold">The River</h3>
+                <p class="text-gray-400 text-sm">The River</p>
+                <div class="mt-2 text-sm text-purple-400">
+                    <span>Key: A</span> • <span>1980</span>
+                </div>
+                <p class="text-gray-500 text-sm mt-2">Difficulty: Intermediate</p>
+            </a>
+        
+            <a href="song-badlands.html" class="card-hover bg-gray-800 rounded-xl p-6">
+                <h3 class="text-xl font-bold">Badlands</h3>
+                <p class="text-gray-400 text-sm">Darkness on the Edge of Town</p>
+                <div class="mt-2 text-sm text-purple-400">
+                    <span>Key: E</span> • <span>1978</span>
+                </div>
+                <p class="text-gray-500 text-sm mt-2">Difficulty: Intermediate</p>
+            </a>
+        
+            <a href="song-atlantic-city.html" class="card-hover bg-gray-800 rounded-xl p-6">
+                <h3 class="text-xl font-bold">Atlantic City</h3>
+                <p class="text-gray-400 text-sm">Nebraska</p>
+                <div class="mt-2 text-sm text-purple-400">
+                    <span>Key: Am</span> • <span>1982</span>
+                </div>
+                <p class="text-gray-500 text-sm mt-2">Difficulty: Beginner</p>
+            </a>
+        
+            <a href="song-streets-of-philadelphia.html" class="card-hover bg-gray-800 rounded-xl p-6">
+                <h3 class="text-xl font-bold">Streets of Philadelphia</h3>
+                <p class="text-gray-400 text-sm">Greatest Hits</p>
+                <div class="mt-2 text-sm text-purple-400">
+                    <span>Key: Cm</span> • <span>1994</span>
+                </div>
+                <p class="text-gray-500 text-sm mt-2">Difficulty: Intermediate</p>
+            </a>
+        
+            <a href="song-the-promised-land.html" class="card-hover bg-gray-800 rounded-xl p-6">
+                <h3 class="text-xl font-bold">The Promised Land</h3>
+                <p class="text-gray-400 text-sm">Darkness on the Edge of Town</p>
+                <div class="mt-2 text-sm text-purple-400">
+                    <span>Key: A</span> • <span>1978</span>
+                </div>
+                <p class="text-gray-500 text-sm mt-2">Difficulty: Intermediate</p>
+            </a>
+        
+            <a href="song-glory-days.html" class="card-hover bg-gray-800 rounded-xl p-6">
+                <h3 class="text-xl font-bold">Glory Days</h3>
+                <p class="text-gray-400 text-sm">Born in the U.S.A.</p>
+                <div class="mt-2 text-sm text-purple-400">
+                    <span>Key: A</span> • <span>1984</span>
+                </div>
+                <p class="text-gray-500 text-sm mt-2">Difficulty: Beginner</p>
+            </a>
+        
+            <a href="song-im-on-fire.html" class="card-hover bg-gray-800 rounded-xl p-6">
+                <h3 class="text-xl font-bold">I'm on Fire</h3>
+                <p class="text-gray-400 text-sm">Born in the U.S.A.</p>
+                <div class="mt-2 text-sm text-purple-400">
+                    <span>Key: Am</span> • <span>1984</span>
+                </div>
+                <p class="text-gray-500 text-sm mt-2">Difficulty: Beginner</p>
+            </a>
+        
+            <a href="song-land-of-hope-and-dreams.html" class="card-hover bg-gray-800 rounded-xl p-6">
+                <h3 class="text-xl font-bold">Land of Hope and Dreams</h3>
+                <p class="text-gray-400 text-sm">Live in New York City</p>
+                <div class="mt-2 text-sm text-purple-400">
+                    <span>Key: E</span> • <span>2001</span>
+                </div>
+                <p class="text-gray-500 text-sm mt-2">Difficulty: Intermediate</p>
+            </a>
+        
+            <a href="song-hungry-heart.html" class="card-hover bg-gray-800 rounded-xl p-6">
+                <h3 class="text-xl font-bold">Hungry Heart</h3>
+                <p class="text-gray-400 text-sm">The River</p>
+                <div class="mt-2 text-sm text-purple-400">
+                    <span>Key: G</span> • <span>1980</span>
+                </div>
+                <p class="text-gray-500 text-sm mt-2">Difficulty: Beginner</p>
+            </a>
+        
+            <a href="song-rosalita-come-out-tonight.html" class="card-hover bg-gray-800 rounded-xl p-6">
+                <h3 class="text-xl font-bold">Rosalita (Come Out Tonight)</h3>
+                <p class="text-gray-400 text-sm">The Wild, the Innocent & the E Street Shuffle</p>
+                <div class="mt-2 text-sm text-purple-400">
+                    <span>Key: E</span> • <span>1973</span>
+                </div>
+                <p class="text-gray-500 text-sm mt-2">Difficulty: Advanced</p>
+            </a>
+        
+            <a href="song-my-hometown.html" class="card-hover bg-gray-800 rounded-xl p-6">
+                <h3 class="text-xl font-bold">My Hometown</h3>
+                <p class="text-gray-400 text-sm">Born in the U.S.A.</p>
+                <div class="mt-2 text-sm text-purple-400">
+                    <span>Key: G</span> • <span>1984</span>
+                </div>
+                <p class="text-gray-500 text-sm mt-2">Difficulty: Intermediate</p>
+            </a>
+        
+            <a href="song-waitin-on-a-sunny-day.html" class="card-hover bg-gray-800 rounded-xl p-6">
+                <h3 class="text-xl font-bold">Waitin' on a Sunny Day</h3>
+                <p class="text-gray-400 text-sm">The Rising</p>
+                <div class="mt-2 text-sm text-purple-400">
+                    <span>Key: E</span> • <span>2002</span>
+                </div>
+                <p class="text-gray-500 text-sm mt-2">Difficulty: Beginner</p>
+            </a>
+        
+            <a href="song-tougher-than-the-rest.html" class="card-hover bg-gray-800 rounded-xl p-6">
+                <h3 class="text-xl font-bold">Tougher Than the Rest</h3>
+                <p class="text-gray-400 text-sm">Tunnel of Love</p>
+                <div class="mt-2 text-sm text-purple-400">
+                    <span>Key: A</span> • <span>1987</span>
+                </div>
+                <p class="text-gray-500 text-sm mt-2">Difficulty: Beginner</p>
+            </a>
+        
+            <a href="song-american-skin.html" class="card-hover bg-gray-800 rounded-xl p-6">
+                <h3 class="text-xl font-bold">American Skin (41 Shots)</h3>
+                <p class="text-gray-400 text-sm">High Hopes</p>
+                <div class="mt-2 text-sm text-purple-400">
+                    <span>Key: Cm</span> • <span>2000</span>
+                </div>
+                <p class="text-gray-500 text-sm mt-2">Difficulty: Intermediate</p>
+            </a>
+        </div>
+    </main>
+    
+    <footer class="bg-gray-900 border-t border-gray-800 py-12">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-xl font-bold text-purple-400 mb-4">Bruce Springsteen</h4>
+                    <p class="text-gray-400 text-sm">Official biography and complete discography.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Explore</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="about.html" class="hover:text-purple-400">Biography</a></li>
+                        <li><a href="discography.html" class="hover:text-purple-400">Discography</a></li>
+                        <li><a href="songs.html" class="hover:text-purple-400">Songs</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Media</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="videos.html" class="hover:text-purple-400">Videos</a></li>
+                        <li><a href="gallery.html" class="hover:text-purple-400">Gallery</a></li>
+                        <li><a href="timeline.html" class="hover:text-purple-400">Timeline</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">More</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="awards.html" class="hover:text-purple-400">Awards</a></li>
+                        <li><a href="influence.html" class="hover:text-purple-400">Influence</a></li>
+                        <li><a href="quotes.html" class="hover:text-purple-400">Quotes</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-500 text-sm">
+                <p>&copy; 2024 brucespringsteen.bio - An educational biography resource</p>
+            </div>
+        </div>
+    </footer>
+</body></html>
